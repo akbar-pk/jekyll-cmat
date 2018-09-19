@@ -12243,6 +12243,12 @@ line-he .header-component .cover h1.brand a:hover {
 .no-banner .header-cover-image, .container.no-banner {
     display: none;
 }
+.blog-back.blogs {
+    display: none;
+}
+.remove-left-padding {
+    padding-left: unset !important;
+}
 @media screen and (max-width:900px) {
     .faqs__item {
         width: 50%;
