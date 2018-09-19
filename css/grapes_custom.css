@@ -1,0 +1,99 @@
+/* Grapes JS Override */
+.gjs-cv-canvas {
+    min-width: 100%;
+}
+.gjs-one-bg {
+    background: unset;
+}
+.gjs-one-bg.gjs-block,.gjs-bg-main, .gjs-off-prv, 
+.gjs-sm-sector .gjs-sm-colorp-c, .gjs-clm-tags .gjs-sm-colorp-c,
+.gjs-select option, .gjs-clm-select option, .gjs-sm-select option, 
+.gjs-fields option, .gjs-sm-unit option {
+    background-color: #15446b;
+}
+.gjs-field select.gjs-devices {
+    color: #fff;
+}
+.gjs-pn-panels .gjs-pn-btn, .gjs-device-label, .gjs-field select.gjs-devices {
+    color: #15446b;
+}
+.block-display .fa-5 {
+    font-size: 15px;
+}
+.block-display .fa-3 {
+    font-size: 12px;
+}
+#stylesHolder .gjs-pn-panel {
+    padding: 0;
+    position: relative;
+}
+#stylesHolder .gjs-pn-panel .gjs-sm-title {
+    background: unset;
+    border: unset;
+    padding: 9px 10px 9px 10px
+}
+#stylesHolder .gjs-sm-property, .gjs-device-label {
+    font-size: 1.5rem;
+}
+.gjs-pn-panels {
+    font-size: 1.2rem;
+}
+.gjs-pn-panels .gjs-pn-views, .gjs-pn-panels .gjs-pn-views-container {
+    display: none;
+}
+.gjs-pn-panels .gjs-pn-options {
+    right: 0;
+}
+.gjs-off-prv.fa.fa-eye-slash {
+    font-size: 2.9rem;
+    position: absolute;
+    right: 0;
+}
+/* editor */
+#grapes-editor {
+	width: auto;
+	height: auto;
+	min-height: auto;
+}
+.editor-row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	height: 300px;
+  }
+  
+  .editor-canvas {
+	flex-grow: 1;
+  }
+  .gjs-blocks-cs .gjs-block {
+	min-height: 64px;
+	padding: .5em;
+  }
+  #page-blocks .gjs-one-bg .gjs-blocks-c, #layersHolder .gjs-one-bg.gjs-two-color {
+	background-color: #222933;
+	background-color: unset;
+  }
+  .panel__right {
+	flex-basis: 230px;
+	position: relative;
+	overflow-y: auto;
+  }
+  .gjs-layer {
+	  font-size: 1rem !important;
+  }
+  .gjs-layer i.gjs-layer-vis.fa-eye {
+	font-size: 1.4rem;
+  }
+  .gjs-layer i.gjs-layer-caret {
+	font-size: 1.01rem;
+  }
+  .gjs-layer .gjs-one-bg, .gjs-sm-sector {
+	background: #15446b;
+  }
+  .icon-undo.gjs-pn-btn.gjs-pn-active,
+  .icon-redo.gjs-pn-btn.gjs-pn-active,
+  .icon-blank.gjs-pn-btn.gjs-pn-active {
+    background-color: unset;
+    box-shadow: unset;
+  }

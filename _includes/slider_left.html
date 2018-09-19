@@ -1,0 +1,66 @@
+<!-- <div class="editor-backdrop"></div> -->
+
+<a id="leftSliderOpenButton" class="editor-link hidden-xs" href="#editor">
+  <div class="btn-editor easing">
+    <img src="/images/career_site_editor.png" alt="Edit">
+  </div>
+</a>
+<div class="hidden-xs" id="editor" role="navigation">
+  <div id="sliderContent" style="display: none;">
+    <div class="header">
+    <img src="/images/users_slider.png" alt="Editor">
+    <strong>Contents</strong>
+    <a id="closeLeftSlider"  class="editor-link active" href="#editor">
+    <i class="fa fa-angle-double-left"></i>
+    </a>
+    </div>
+
+      <div style="overflow: auto" class="editor-content ps-container ps-active-y">
+        <section class="banner-image-upload">
+          <h3><span>Banner Image</span></h3>
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Replace Banner Image</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+        </section>
+
+      <section class="settings">
+        <h3><span>Pages</span></h3>
+        
+                      
+        <ul class="list row">
+          <li class="col-xs-12">            
+              <a class="inner font-selector dropdown-toggle" href="#">Page 1</a>            
+          </li>
+          <li class="col-xs-12">            
+              <a class="inner font-selector dropdown-toggle" href="#">Page 2</a>            
+          </li>
+          <li class="col-xs-12">            
+              <a class="inner font-selector dropdown-toggle" href="#">Page 3</a>            
+          </li>
+        </ul>               
+        
+      </section>     
+
+      <section class="fields" id="sliderEditor" >
+          <h3><span>Contact Info</span></h3>
+          <form class="dark">
+            <div class="form-group">
+              <label for="ContactEmail">Email</label>
+              <input type="name" name="email" class="form-control short" id="ContactEmail" placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="FacebookUrl">Facebook URL</label>
+                <input type="text" name="facebook" class="form-control short" id="FacebookUrl" placeholder="School's Facebook page URL">
+              </div>
+
+              <button type="button" id="sliderEditorSave" class="btn btn-primary pull-right" onclick="sliderEditor.saveSliderData">Save</button>
+          </form>
+      </section>   
+    </div>
+  </div>   
+</div> 
+</div>
+
+
