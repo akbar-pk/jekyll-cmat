@@ -1,14 +1,14 @@
 # banner titles
-welcomeText: Welcome to the Ashfield School Career Site
-bannerCaption : An Outstanding School in Nottinghamshire
+welcomeText: We are looking for talented people
+bannerCaption : Lipsum lorem
 
 # section titles
 partnerTitle: Part of the Two Counties Trust
 partnerSubTitle: We have multiple locations around the country
 categoryTitle: Category
 categorySubTitle: A selection of what we have to offer
-jobTitle: Current open Vacancies at Ashfield School
-jobSubTitle: Take a look below at our current openings, we would like to hear from you.
+jobTitle: Join Us
+jobSubTitle: Vacancies from schools within our Trust
 teamTitle: Our Team
 teamSubTitle: The people behind our School
 perksTitle: Perks & Benefits
@@ -17,10 +17,15 @@ aboutTitle: About us
 aboutSubTitle: What we stand for
 whyworkTitle: Why work at ACME School
 whyworkSubTitle: Our benefits
+telentPoolTitle: Join our Talent Pool
+awardsTitle: Our Awards
+ourSchoolsTitle: Our Schools
 photosTitle: Our School
 photosSubTitle: A great place to work
 locationTitle: Location
-locationSubTitle: Street, City
+locationSubTitle: How to find us
 videosTitle: Videos
 videosSubTitle: A great place to work
 feedbackTitle: It's great working with you!
+galleryTitle: Our Gallery
+gallerySubTitle: A great place to work
